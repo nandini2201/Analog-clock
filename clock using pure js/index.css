@@ -1,0 +1,39 @@
+#clockContainer {
+    position:relative;
+  margin: auto;
+  /*border: 2px solid black;*/
+  height: 40vw;
+  width: 40vw;
+  background: url(clock.webp) no-repeat;
+  background-size: 100%;
+}
+#hours,#minutes,#seconds {
+  position: absolute;
+  background: black;
+  border-radius: 8px;
+  transform-origin: bottom;
+}
+#hours {
+  width: 2%;
+  height: 21%;
+  top: 29%;
+  left: 49.7%;
+  opacity: 0.8;
+  
+}
+#minutes {
+  width: 2%;
+  height: 25%;
+  top: 25%;
+  left: 49.6%;
+  opacity: 0.8;
+  
+  
+}
+#seconds {
+  width: 2%;
+  height: 30%;
+  top: 20%;
+  left: 49.6%;
+  opacity: 0.8;    
+}
